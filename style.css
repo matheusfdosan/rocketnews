@@ -1,0 +1,154 @@
+:root {
+	--body-bg-color: #121214;
+	--text-color: #e1e1e6;
+	--title-color: #04d361;
+	--form-color: #a8a8a8;
+	--bg-button-color: #8257e5;
+	--bg-button-hover-color: #5f3fa9;
+	--font-montserrat: "Montserrat", sans-serif;
+	--font-work-sans: "Work Sans", sans-serif;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	width: 100%;
+	height: 100vh;
+	background-color: var(--body-bg-color);
+}
+
+/* main content - left content */
+.main-content {
+	flex: 1;
+	max-width: 700px;
+	padding: 50px 30px;
+}
+
+/* logo */
+.logo-container {
+	margin-bottom: 50px;
+}
+
+.logo-container img {
+	width: 389px;
+}
+
+/* text */
+.text-container {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	margin-bottom: 50px;
+}
+
+.text-container h2 {
+	font-family: var(--font-work-sans);
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 28px;
+	color: var(--title-color);
+}
+
+.text-container h3 {
+	font-family: var(--font-montserrat);
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 16px;
+	color: var(--text-color);
+}
+
+.text-container p {
+	font-family: var(--font-montserrat);
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 19px;
+	color: var(--text-color);
+}
+
+/* form */
+form {
+	margin-bottom: 50px;
+}
+
+form label {
+	font-family: var(--font-montserrat);
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 19px;
+	color: var(--form-color);
+}
+
+.input-button {
+	display: flex;
+	justify-content: stretch;
+	align-items: center;
+	position: relative;
+	width: 750px;
+	height: 48px;
+	margin-top: 17px;
+}
+
+.input-button input {
+	flex: 1;
+	height: 48px;
+	padding: 17px;
+	border: none;
+	border-left: 5px solid var(--title-color);
+}
+
+.input-button input::placeholder {
+	font-family: var(--font-work-sans);
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 14px;
+}
+
+.input-button button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 48px;
+	height: 48px;
+	border: none;
+	border-radius: 0px;
+	background-color: var(--bg-button-color);
+}
+
+.input-button button:hover,
+.input-button button:focus {
+	background-color: var(--bg-button-hover-color);
+	cursor: pointer;
+}
+
+/* link */
+.link-container {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	width: fit-content;
+	height: fit-content;
+	font-family: var(--font-montserrat);
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 19px;
+	color: var(--bg-button-color);
+}
+
+.link-container:hover,
+.link-container:focus {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+/* right image */
+.image {
+	flex: 1;
+	max-width: 700px;
+	background: url("assets/read_news.jpg") no-repeat center/cover;
+}
