@@ -1,7 +1,7 @@
-# RocketNews
+<h1 align="center"> Rocketnews </h1>
 
 <p align="center">
-  Neste desafio você vai construir uma página para a captação de leads ou newsletter.
+  Uma página para a captação de leads ou newsletter.
 </p>
 
 <p align="center">
@@ -31,7 +31,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Meu próprio portifólio. Veja ele clicando nesse [link](https://matheusfdosan.github.io/desafio-rocketnews-rocketseat/).
+Meu próprio portifólio. Veja ele clicando nesse [link](https://matheusfdosan.github.io/rocketnews/).
 
 ## 🔖 Layout
 
